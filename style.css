@@ -12,7 +12,8 @@
    .nav-links ul {
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
     
    }
    .nav-links a {
@@ -25,9 +26,12 @@
     align-items: center;
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    flex-wrap: wrap;
+
+    
    }
    .logo img {
-    width: 120px;
+    width: 100px;
     height: auto;
    }
 
