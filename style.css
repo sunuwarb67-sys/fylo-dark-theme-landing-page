@@ -1,0 +1,42 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-color: hsl(218, 28%, 13%);
+    }
+    /*header starts here */
+   .nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+   }
+   .nav-links a {
+    color: #fff;
+    text-decoration: none;
+   }
+   .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+   }
+   .logo img {
+    width: 120px;
+    height: auto;
+   }
+
+
+   /*Intro Starts from here */
+
+   .intro-img img {
+    max-width: 100%;
+   }
+   .intro {
+    padding: 30px;
+   }
