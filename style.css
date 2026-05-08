@@ -1,12 +1,14 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    * {
+    *, *::before, *::after {
       box-sizing: border-box;
       padding: 0;
       margin: 0;
     }
     body {
       background-color: hsl(218, 28%, 13%);
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
     }
     /*header starts here */
    .nav-links ul {
@@ -43,4 +45,64 @@
    }
    .intro {
     padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+   }
+   .intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 10px 2px;
+   }
+
+   .intro h1 {
+    line-height: 1.4;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+   }
+   .intro p {
+    font-size: 14px;
+    color: hsl(0, 0%, 90%);
+    max-width: 500px;
+    margin-bottom: 20px;
+   }
+   .btn-primary {
+    font-size: 1.1rem;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    padding: 16px 80px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+   }
+   .btn-primary:hover {
+    background-color: hsl(198, 60%, 50%);
+   }
+
+   /*features starts from here */
+
+   .features {
+    text-align: center;
+    padding: 40px 18px;
+    margin: 40px 18px;
+   }
+   .feature img{
+    margin-bottom: 20px;
+    
+   }
+   .feature h2{
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+   }
+   .feature p{
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.6;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    font-weight: 400;
    }
