@@ -105,4 +105,57 @@
     margin: 0 auto 60px auto;
     text-align: center;
     font-weight: 400;
+   }  
+
+   /*productive section starts from here */
+
+   .productivity img {
+    max-width: 100%;
+    margin-bottom: 30px;
+   }
+   .productivity {
+    padding: 20px;
+    text-align: center;
+   }
+   .productivity-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 80px auto;
+   }
+   .productivity-content h2 {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 30px;
+   }
+   .productivity-content p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+   }
+   .productivity-content .learn-more {
+    color: rgb(54, 194, 222);
+    display: inline-flex;
+    border-bottom: 2px solid rgb(54, 194, 222);
+    align-items: center;
+    text-decoration: none;
+    gap: 6px;
+    margin-left: 12px;
+    margin-right: auto;
+    position: relative;
+    padding: 10px 30px 10px 0;
+    
+   }
+   .learn-more img {
+    width: 20px;
+    position: absolute;
+    right: 4px;
+    top: 30%;
+    
    }
