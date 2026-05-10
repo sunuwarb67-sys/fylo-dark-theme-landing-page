@@ -42,11 +42,14 @@
 
    .intro-img img {
     max-width: 100%;
+   
    }
    .intro {
     padding: 30px;
     text-align: center;
     margin-bottom: 40px;
+     max-width: 500px;
+     margin: 0 auto;
    }
    .intro-content {
     display: flex;
@@ -116,6 +119,8 @@
    .productivity {
     padding: 20px;
     text-align: center;
+     max-width: 500px;
+     margin: 0 auto;
    }
    .productivity-content {
     display: flex;
@@ -158,4 +163,190 @@
     right: 4px;
     top: 30%;
     
+   }
+
+   /*team section starts from here */
+
+   .team{
+    padding: 20px;
+   }
+   .team-content {
+    max-width: 400px;
+    position: relative;
+    padding: 30px;
+    background-color: hsl(219, 30%, 18%);
+    margin: 32px auto;
+  
+   }
+   .team-content .quote-img {
+     position: absolute;
+     top: -45px;
+     left: 4px;
+   }
+   .team-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+   
+   }
+   .testimonial-author .author-img {
+    width: 40px;
+    border-radius: 50%;
+   }
+   .testimonial-author {
+    display: flex;
+    font-size: 14px;
+    gap: 12px;
+   }
+   .testimonial-author .author-info {
+    display: flex;
+    flex-direction: column;
+   }
+   .author-info .author-name {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+   }
+   .author-info .author-title {
+    font-size: 12px;
+    opacity: 0.8;
+   }
+
+   /* get started starts from here */
+
+
+   .start-for-free {
+    padding: 20px;
+   }
+   .get-started {
+    background-color: hsl(218, 20%, 19%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 500px;
+    margin: 10px auto;
+    z-index: 9;
+    position: relative;
+    
+   }
+   .get-started h2 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+   }
+   .get-started p {
+    max-width: 500px;
+    padding: 0 20px;
+    line-height: 1.4;
+   }
+
+   .get-started .email {
+    height: 60px;
+    padding: 0 140px 0 50px;
+    border-radius: 30px;
+    border-style: none;
+    
+    
+   }
+   .btn-start {
+    padding: 0 65px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: hsl(176, 68%, 64%);
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    margin-bottom: 40px;
+    transition: background-color 0.3 ease;
+   }
+   input::placeholder {
+    opacity: 0.5;
+   }
+   .btn-start:hover {
+        background-color: hsl(198, 60%, 50%);
+   }
+   .btns {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   }
+
+   /*footer section starts from here*/
+
+   .footers {
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -260px;
+    padding-top: 300px;
+    z-index: 1;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+   }
+   .footers .footer-logo {
+    width: 260px;
+     margin: 20px auto;
+   }
+   .footers .footers-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 10px auto;
+    max-width: 500px;
+   }
+   .footers-content .address {
+   display: flex;
+   gap: 20px;
+   align-items: flex-start;
+   margin-bottom: 20px;
+   line-height: 1.6;
+   }
+   .address img {
+    padding-top: 5px;
+    width: 44px;
+   }
+   .contact-info a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+   }
+   .phone-number{
+    margin-bottom: 30px;
+   }
+   .emailaddress{
+    margin-bottom: 60px;
+   }
+   .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+   .list a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+   }
+   .social-icons a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+   }
+   .social-icons i{
+    color: white;
+
+   }
+   .social-icons{
+    margin: 40px auto;
+   }
+   .footers-logo-wrap {
+    max-width: 500px;
+    margin: 10px auto;
    }
