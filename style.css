@@ -338,6 +338,7 @@
     border: 2px solid white;
     border-radius: 50%;
     text-decoration: none;
+    margin: 10px;
    }
    .social-icons i{
     color: white;
@@ -349,4 +350,93 @@
    .footers-logo-wrap {
     max-width: 500px;
     margin: 10px auto;
+   }
+
+   /* for desktop size */
+
+   @media (min-width: 760px) {
+    .main-header {
+      margin: 30px;
+    }
+    .nav-links ul {
+      gap: 50px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .productivity {
+      display: flex;
+
+      padding: 30px;
+      align-items: flex-end;
+      max-width: 1200px;
+      gap: 40px;
+      padding: 40px;
+      margin: 0 auto;
+    }
+    .productive-img img {
+      max-width: 100%;
+    }
+    .productivity-content {
+    max-width: 500px;
+    padding: 20px;
+    }
+    .team {
+      display: flex;
+  
+      gap: 20px;
+    }
+    .get-started {
+      max-width: 900px;
+      padding: 40px 40px;
+    }
+    .get-started p {
+      max-width: 700px;
+      margin-bottom: 20px;
+    }
+    .get-started .btns {
+     flex-direction: row;
+     align-items: flex-start;
+     width: 100%;
+    }
+    .get-started .email {
+      flex: 1;
+
+    }
+    .btn-start {
+      padding: 0 30px;
+      font-size: 18px;
+    }
+    .footers .footers-logo-wrap{
+     padding-left: -0px; 
+
+     max-width: 100%;
+    }
+    .footers .footers-content {
+      flex-direction: row;
+      max-width: 100%;
+      gap: 60px;
+      justify-content: flex-start;
+      margin-top: 40px;
+      font-size: 16px;
+    }
+    .footers-content .list a{
+      font-size: 16px;
+    
+    }
+    .footers-content .address {
+      max-width: 400px;
+    }
+    .contact-info {
+ 
+      max-width: 800px;
+    }
+    .social-icons a{
+
+    }
+      
    }
